@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Test</title>
+    <link rel="stylesheet" href="C:\Users\shrey\Desktop\Persona\static\styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+          <div class="logo">Persona</div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="home page.html">Home</a></li>
+            <li><a href="pt.html">Personality Types</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <form id="testForm">
+            <h1>Personality Test</h1>
+            <!-- <p class = "heading">Please answer the following questions honestly.</p> -->
+
+            <div class="statement">
+                <p>1. I am the life of the party.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q1" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q1" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q1" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q1" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span>
+                        <input type="radio" name="q1" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>2. I feel comfortable around people.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q2" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q2" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q2" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q2" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span>
+                        <input type="radio" name="q2" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>3. I start conversations.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q3" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q3" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q3" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q3" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span>
+                        <input type="radio" name="q3" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>4. I talk to a lot of different people at parties.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q4" value="5" required>
+                    </label>
+                    <label>
+                        Agree <span class="circle medium"></span>
+                        <input type="radio" name="q4" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q4" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q4" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree <span class="circle large"></span>
+                        <input type="radio" name="q4" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>5. I enjoy being the center of attention.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q5" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q5" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q5" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q5" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q5" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>6. I get stressed out easily.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q6" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q6" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q6" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q6" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q6" value="1">
+                    </label>
+                </div>
+            </div>
+            
+            <div class="statement">
+                <p>7. I worry about things.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q7" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q7" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q7" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q7" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q7" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>8. I am easily disturbed.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q8" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q8" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q8" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q8" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q8" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>9. I change my mood a lot.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q9" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q9" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q9" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q9" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q9" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>10. I get irritated easily.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q10" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q10" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q10" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q10" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q10" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>11. I feel little concern for others.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q11" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q11" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q11" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q11" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q11" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>12. I insult people.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q12" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q12" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q12" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q12" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q12" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>13. I am more interested in my own problems rather than other's problems.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q13" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q13" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q13" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q13" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q13" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>14. I am not really interested in others.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q14" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q14" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q14" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q14" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q14" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>15. I feel other's emotions.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q15" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q15" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q15" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q15" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q15" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>16. I leave my stuff around.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q16" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q16" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q16" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q16" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q16" value="1">
+                    </label>
+                </div>
+            </div>
+            
+            <div class="statement">
+                <p>17. I make a mess of things.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q17" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q17" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q17" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q17" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q17" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>18. I often forget to put things back in their proper place.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q18" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q18" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q18" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q18" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q18" value="1">
+                    </label>
+                </div>
+            </div>
+            
+            <div class="statement">
+                <p>19. I avoid my duties.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q19" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q19" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q19" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q19" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q19" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>20. I am precise in my work.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q20" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q20" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q20" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q20" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q20" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>21. I have difficulty in understanding abstract ideas.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q21" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q21" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q21" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q21" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q21" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>22. I prefer clear and concrete concepts.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q22" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q22" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q22" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q22" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q22" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>23. I have good imagination.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q23" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q23" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q23" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q23" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q23" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>24. I use difficult words.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q24" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q24" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q24" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q24" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q24" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p>25. I am full of ideas.</p>
+                <div class="options">
+                    <label>
+                        Strongly Agree <span class="circle large"></span>
+                        <input type="radio" name="q25" value="5" required>
+                    </label>
+                    <label>
+                        Agree<span class="circle medium"></span>
+                        <input type="radio" name="q25" value="4">
+                    </label>
+                    <label>
+                        Neutral<span class="circle small"></span>
+                        <input type="radio" name="q25" value="3">
+                    </label>
+                    <label>
+                        Disagree<span class="circle medium"></span>
+                        <input type="radio" name="q25" value="2">
+                    </label>
+                    <label>
+                        Strongly Disagree<span class="circle large"></span> 
+                        <input type="radio" name="q25" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <button class="head" type="button" onclick="submitTest()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function submitTest() {
+            const form = document.getElementById('testForm');
+            const formData = new FormData(form);
+            const answers = [];
+    
+            for (let i = 1; i <= 25; i++) {
+                const value = formData.get(`q${i}`);
+                if (!value) {
+                    alert(`Please answer question ${i}.`);
+                    return;
+                }
+                answers.push(parseInt(value, 10));
+            }
+    
+            // Send the data to the backend
+            fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ answers: answers })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(`Error: ${data.error}`);
+                } else {
+                    let personality = data.prediction[0];
+                    console.log("Predicted Personality (Raw):", personality);
+                    
+                    // Normalize the personality value
+                    personality = personality.trim().toLowerCase();
+                    console.log("Normalized Personality:", personality);
+    
+                    // Redirect based on personality
+                    switch (personality) {
+                        case "agreeableness":
+                            window.location.href = "agreeableness.html";
+                            break;
+                        case "extraversion":
+                            window.location.href = "extraversion.html";
+                            break;
+                        case "neuroticism":
+                            window.location.href = "neuroticism.html";
+                            break;
+                        case "conscientiousness":
+                            window.location.href = "conscientiousness.html";
+                            break;
+                        case "openness":
+                            window.location.href = "openness.html";
+                            break;
+                        default:
+                            alert("Unknown personality predicted: " + personality);
+                    }
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("An error occurred while processing your request.");
+            });
+        }
+    </script>
+    
+    
+    
+</body>
+</html>

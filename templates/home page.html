@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="C:\Users\shrey\Desktop\Persona\static\hstyles.css" />
+    <title>Personality Test</title>
+  </head> 
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a>Persona</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="pt.html">Personality Types</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">WELCOME</p>
+          <h1 class="title">
+            This is <span>PersonalityTest</span>
+          </h1>
+          <h2 class="h2">Your gateway to understanding the unique aspects of your personality</h2>
+          <p class="description">
+            Our comprehensive and scientifically-backed personality test is designed to provide you 
+            with deep insights into your character traits, preferences, and behaviors. 
+            Whether you're looking to improve your self-awareness, enhance your relationships, 
+            or simply satisfy your curiosity, our test is the perfect tool for self-discovery.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me" onclick="startTest()">Take Test</button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <script>
+        function startTest() {
+            window.location.href = 'test page.html';
+        }
+    </script>
+  </body>
+</html>
